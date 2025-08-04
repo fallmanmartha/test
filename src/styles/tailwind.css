@@ -3,9 +3,8 @@
 @plugin '@tailwindcss/typography';
 @plugin '@tailwindcss/forms';
 @import "tailwindcss-animated";
-@source 'inline(animate-spin)'; 
-@source 'inline(animate-delay-1000)'; 
-@source 'inline(animate-once)'; 
+
+@source "inline('animate-spin')";
 
 @theme {
   /* Her tilføjes theme variable // tokens */
