@@ -9,17 +9,21 @@ import Link from '../components/Link.astro';
 		<p>Dette lille site er lavet med små kodestumper, der viser de forskellige frontend frameworks, vi skal bruge i løbet af valgfaget.</p>
 		<p>Se også:</p>
 		<ul>
-			<li>
+			<li class="hover:animate-shake">
 				<Link href="https://astro.build/" target="_blank">Astro<Link>
-			<li>
+			</li>
+			<li class="hover:animate-shake">
 				<Link href="https://tailwindcss.com/" target="_blank">Tailwind<Link>
-				
-			<li>
+			</li>	
+			<li class="hover:animate-shake">
 				<Link href="https://alpinejs.dev/" target="_blank">Alpine.js<Link>
-			<li>
+			</li>
+			<li class="hover:animate-shake">
 				<Link href="https://motion.dev/" target="_blank">Motion One<Link>
-			<li>
-				<Link href="https://animate.style/" target="_blank">Animate CSS<Link>
+			</li>
+			<li class="hover:animate-shake">
+				<Link href="https://animate.style/" target="_blank">TailwindAnimated  CSS<Link>
+			</li>
 		</ul>
 
 		<h2>Når du skal starte et nyt projekt op</h2>
@@ -49,9 +53,3 @@ import Link from '../components/Link.astro';
 		</div>
 	</article>
 </MainLayout>
-<style>
-	ul>li:hover{
-		animation: headShake; /* referring directly to the animation's @keyframe declaration */
-  		animation-duration: 1s; /* don't forget to set a duration! */
-	}
-</style>
