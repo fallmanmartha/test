@@ -4,7 +4,8 @@
 @plugin '@tailwindcss/forms';
 @import "tailwindcss-animated";
 
-@source "inline('animate-spin')";
+/* Safelist specific classes */
+@source inline("animate-spin animate-delay-1000 animate-once");
 
 @theme {
   /* Her tilføjes theme variable // tokens */
